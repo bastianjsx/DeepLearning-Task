@@ -21,7 +21,7 @@ This repository contains the complete empirical implementation for the comparati
 
 ---
 
-## 🔬 Experimental Scope & Methodology
+## Experimental Scope & Methodology
 
 ### 1. Proof of MLP Classifier Limitations (`2- MLP Classifie.ipynb`)
 Empirically demonstrates three fundamental theoretical bottlenecks: the classification **information bottleneck** (loss of intra-class spatial variance), **algebraic non-invertibility** ($W^T \ne W^{-1}$ with irreversible ReLU clipping), and **absence of latent density regularization** ($P(z)$).
